@@ -11,4 +11,9 @@ From within the project directory, run: `pip install -r requirements.txt`
 1. Set URL in `history.txt` to episode of show you want to start watching
 2. From within the project directory, run: `python autokim.py`
 
-*Note: Doesn't support auto-switching seasons.*
+Episodes will fullscreen and play automatically.
+
+
+## Known issues
+- Doesn't support auto-switching seasons.
+- Script can't interact with `Hserver` video stream in event of fallback event from `Oserver`
